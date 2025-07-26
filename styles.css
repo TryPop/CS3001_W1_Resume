@@ -1,0 +1,90 @@
+/* page setup */
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  margin: 40px auto;
+  max-width: 900px;
+  line-height: 1.6;
+  color: #111;
+  padding: 0 20px;
+}
+
+h1,
+h2 {
+  margin-bottom: 4px;
+}
+
+/* section titles */
+h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin-top: 40px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.header,
+.section {
+  margin-bottom: 20px;
+}
+
+.item {
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-top: 4px;
+}
+
+/* two column layout */
+.two-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-title {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.skills {
+  line-height: 1.4;
+  margin-left: 15px;
+}
+
+/* header layout */
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.left-info h1 {
+  margin: 0 0 4px 0;
+  font-size: 1.8em;
+}
+
+.dot {
+  margin: 0 8px;
+}
+
+.right-info,
+.social-links {
+  font-size: 0.95em;
+}
+
+.right-info {
+  text-align: right;
+}
+
+.italic-grey {
+  font-style: italic;
+  font-size: 0.95em;
+  color: #666;
+}
